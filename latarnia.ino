@@ -1,14 +1,3 @@
-/*
-  AnalogReadSerial
-
-  Reads an analog input on pin 0, prints the result to the Serial Monitor.
-  Graphical representation is available using Serial Plotter (Tools > Serial Plotter menu).
-  Attach the center pin of a potentiometer to pin A0, and the outside pins to +5V and ground.
-
-  This example code is in the public domain.
-
-  http://www.arduino.cc/en/Tutorial/AnalogReadSerial
-*/
 
 //10,11 i 12,13
 
@@ -69,7 +58,6 @@ void setup() {
   
   }
 
-// the loop routine runs over and over again forever:
 
 unsigned long lastMillis;
 boolean lastButton1State = false;
